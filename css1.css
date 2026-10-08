@@ -1,0 +1,49 @@
+body {
+    background-color: rgba(8, 17, 29, 1);
+;
+}
+
+#first {
+    width: 470px;
+    height: 91px;
+
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 76px;
+    line-height: 120%;
+    letter-spacing: 0;
+
+    color: rgba(255, 255, 255, 1);
+}
+#sec{
+width: 470px;
+    height: 91px;
+
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 76px;
+    line-height: 120%;
+    letter-spacing: 0;
+    
+    color:blue
+
+}
+pre{
+
+ color:white ;
+
+}
+nav{
+    background-color: white;
+}
+h2{
+color: white;
+
+
+}
+
+
+
+
+
+
