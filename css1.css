@@ -1,0 +1,294 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+
+    background-image: url("img44.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+header {
+    width: 100%;
+    background-color: white;
+}
+
+
+nav {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding: 0 25px;
+    background-color: white;
+}
+
+
+
+.logo {
+    font-family: "Inter", sans-serif;
+    font-size: 21px;
+    font-weight: 800;
+    color: black;
+    white-space: nowrap;
+}
+
+
+
+.links {
+    display:flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.links a {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.links a:hover {
+    color: rgb(60, 86, 237);
+}
+
+
+
+.nav-right {
+    display: inline-block;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.search {
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.b0 {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.b0:hover {
+    background-color: blue;
+}
+
+
+main {
+    padding: 60px 70px;
+    background-color: transparent;
+}
+
+
+#first,
+#sec,
+#tre {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 76px;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+
+#first {
+    color:black;
+}
+
+#sec {
+    color: blue;
+}
+
+#tre {
+    color: green;
+}
+
+
+
+.pr {
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+.pr h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.pr p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: white;
+    max-width: 550px;
+}
+
+
+
+#b1,
+#b2 {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    padding: 14px 22px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+#b1 {
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-right: 15px;
+}
+
+#b2 {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.ellipse {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background-color: gray;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 27px;
+}
+.ellipse1{
+
+   display: inline-block;
+    width: 27px;
+    height: 27px;
+    background-color:rgba(215, 195, 182, 1);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 27px;
+}
+.ellipse2{
+   display: inline-block;
+    width: 27px;
+    height: 27px;
+    background-color: gray;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 27px;
+}
+.ellipse3{
+   display: inline-block;
+    width: 27px;
+    height: 27px;
+    background-color: rgba(215, 195, 182, 1);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 27px;
+}
+.cerclezone {
+    margin-top: 20px;
+}
+
+.ellipses {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.texte {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+.pre {
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+.Pre2 {
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color:black;
+}
+
+main {
+    min-height: calc(100vh - 65px - 92px);
+    padding: 60px 70px;
+    background-color: transparent;
+}
+.statistiques {
+    width: 100%;
+    height: 92px;
+    background-color: white;
+    text-align: center;
+    padding: 22px 0;
+}
+
+.stat {
+    display: inline-block;
+    width: 21%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.stat h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 120%;
+    color: rgba(10, 18, 34, 1);
+    margin: 0;
+}
+
+.stat p {
+    color: rgba(71, 82, 106, 1);
+    font-size: 12px;
+    margin: 0;
+}
+
+.sepa {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 12px;
+}
+
+.sepa p {
+    margin: 0;
+    color: white;
+}
+.sepa{
+display: inline-block;
+}
+
